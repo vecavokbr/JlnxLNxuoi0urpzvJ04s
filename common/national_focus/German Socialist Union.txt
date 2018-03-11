@@ -1,0 +1,52 @@
+focus_tree = {
+	id = german_socialist_union_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GSU
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+	focus = {
+		id = GSU_liebknecht_death
+		icon = GFX_goal_support_communism_shine
+		x = 5
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+	}
+
+	focus = {
+		id = GSU_liberal_socialism
+		icon = GFX_goal_support_communism_shine
+		x = 3
+		y = 1
+		prerequisite = { focus = GSU_liebknecht_death }
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
