@@ -30,7 +30,7 @@ Replaced old GSU communist flag with new one
 ### Removed
 Removed the Egypt focus tree temporarily so I could try working on GSU foci
 
-## [0.0.3(silver v2)] - 2018-3-3
+## [0.0.3(silver v2)] - 2018-11-3
 ### Added
 Revolution Realized now compatible with Cornflakes/Waking the Tiger (full modding dev diary in description) 190 bugs down to 17
 Added many new leader portraits courtesy of the art team
@@ -38,3 +38,8 @@ Added many new leader portraits courtesy of the art team
 Gave Poznan to GSU
 ### Removed
 N/A
+
+## [0.0.4(pogv2)] - 2018-11-3
+### Changed
+Croatia-Slovenia Border Shift
+South Serbia-Montenegro-Macedonia Border Shift
