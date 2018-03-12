@@ -21,6 +21,7 @@ bookmarks = {
 				FRA_revise_versailles
 			}
 		}
+
 		"USA"={
 			history = "USA_REVOLUTION_REALIZED_DESC"
 			ideology = democratic
@@ -35,6 +36,7 @@ bookmarks = {
 				USA_pearl_harbor_gambit
 			}
 		}
+
 		"ENG"={
 			history = "ENG_REVOLUTION_REALIZED_DESC"
 			ideology = democratic
@@ -57,8 +59,9 @@ bookmarks = {
 				general_staff
 			}
 			focuses = {
-			}
 		}
+	}
+
 		"ITA"={
 			history = "ITA_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
@@ -72,11 +75,14 @@ bookmarks = {
 				ITA_italy_first
 			}
 		}
+
 		"JAP"={
 			history = "JAP_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
 			ideas = {
 				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
 			}
 			focuses = {
 				JAP_the_zero
@@ -84,6 +90,7 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}
 		}
+
 		"SOV"={
 			history = "SOV_REVOLUTION_REALIZED_DESC"
 			ideology = communism
@@ -91,6 +98,7 @@ bookmarks = {
 				home_of_revolution
 			}
 			focuses = {
+				SOV_great_purge
 				SOV_claims_on_baltic
 				SOV_war_with_uk
 			}
@@ -115,6 +123,7 @@ bookmarks = {
 				POL_seek_accommodation_with_germany
 			}
 		}
+
 		"CAN"={
 			minor = yes
 			history = "CAN_REVOLUTION_REALIZED_DESC"
@@ -129,6 +138,7 @@ bookmarks = {
 				CAN_join_comintern
 			}
 		}
+
 		"AST"={
 			minor = yes
 			history = "AST_REVOLUTION_REALIZED_DESC"
@@ -142,6 +152,7 @@ bookmarks = {
 				AST_delegation_to_china
 			}
 		}
+
 		"NZL"={
 			minor = yes
 			history = "NZL_REVOLUTION_REALIZED_DESC"
@@ -155,6 +166,7 @@ bookmarks = {
 				NZL_maori_volunteers
 			}
 		}
+
 		"SAF"={
 			minor = yes
 			history = "SAF_REVOLUTION_REALIZED_DESC"
@@ -169,6 +181,7 @@ bookmarks = {
 				SAF_anti_colonialist_crusade
 			}
 		}
+
 		"RAJ"={
 			minor = yes
 			history = "RAJ_REVOLUTION_REALIZED_DESC"
@@ -183,12 +196,14 @@ bookmarks = {
 				RAJ_the_smiling_buddha
 			}
 		}
+
 		"CZE"={
 			minor = yes
 			history = "CZE_REVOLUTION_REALIZED_DESC"
 			ideology = democratic
 			ideas = {
 				CZE_skoda_works
+				CZE_divided_nation
 			}
 			focuses = {
 				CZE_sudeten_1
@@ -200,8 +215,9 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_REVOLUTION_REALIZED_DESC"
-			ideology = communism
+			ideology = neutrality
 			ideas = {
+				HUN_treaty_of_triannon
 			}
 			focuses = {
 				HUN_proclaim_the_restoration_of_austria_hungary
@@ -228,7 +244,7 @@ bookmarks = {
 		"YUG"={
 			minor = yes
 			history = "YUG_REVOLUTION_REALIZED_DESC"
-			ideology = communism
+			ideology = neutrality
 			ideas = {
 				YUG_idea_croatian_opposition
 				YUG_idea_serbian_general_staff
@@ -242,7 +258,7 @@ bookmarks = {
 
 		"CHI"={
 			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
+			history = "CHI_REVOLUTION_REALIZED_DESC"
 			ideology = neutrality
 			ideas = {
 				CHI_army_corruption_1
@@ -255,9 +271,10 @@ bookmarks = {
 				CHI_invite_the_flying_tigers
 			}
 		}
+
 		"PRC"={
 			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
+			history = "PRC_REVOLUTION_REALIZED_DESC"
 			ideology = communism
 			ideas = {
 				PRC_the_long_march_1
@@ -270,9 +287,10 @@ bookmarks = {
 				PRC_anti_japanese_expedition
 			}
 		}
+
 		"MAN"={
 			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
+			history = "MAN_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
 			ideas = {
 				MAN_banditry
@@ -288,6 +306,21 @@ bookmarks = {
 
 		"GXC"={
 			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+
+		"YUN"={
+			minor = yes
 			history = "WARLORDS_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
 			ideas = {
@@ -300,23 +333,10 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
+
 		"SHX"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -328,9 +348,10 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}
+
 		"XSM"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -342,9 +363,10 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}
+
 		"SIK"={
 			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
+			history = "WARLORDS_REVOLUTION_REALIZED_DESC"
 			ideology = fascism
 			ideas = {
 				PRC_government_corruption
@@ -356,6 +378,7 @@ bookmarks = {
 				CHI_join_the_chinese_soviet
 			}
 		}
+
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
