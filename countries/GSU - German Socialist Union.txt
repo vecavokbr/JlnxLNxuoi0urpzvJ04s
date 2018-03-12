@@ -1,0 +1,132 @@
+﻿capital = 64
+
+oob = "GSU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	transport = 1
+}
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.8
+set_war_support = 0.5
+set_politics = {
+
+	parties = {
+		democratic = {
+			popularity = 6
+		}
+
+		neutrality = {
+			popularity = 2
+		}
+
+		fascism = {
+			popularity = 4
+		}
+
+		communism = {
+			popularity = 88
+			banned = no #default is no
+		}
+	}
+
+	ruling_party = communism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	general_staff
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
+create_country_leader = {
+	name = "Ernst Thälmann"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "Portrait_GSU_Ernst_Thalmann.dds"
+	expire = "1937.4.20"
+	ideology = leninism
+	traits = {
+		assassination_survivor
+	}
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "Portrait_GSU_Karl_Liebknecht.dds"
+	expire = "1936.2.3"
+	ideology = leninism
+	traits = {
+	}
+}
+
+
+create_country_leader = {
+	name = "Konrad Adenauer"
+	desc = "POLITICS_KONRAD_ADENAUER_DESC"
+	picture = "Portrait_GSU_Konrad_Adenauer.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "August von Mackensen"
+	desc = "POLITICS_AUGUST_VON_MACKENSEN_DESC"
+	picture = "Portrait_GSU_August_von_Mackensen.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+	picture = "Portrait_GSU_Heinrich_Himmler.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
+}
