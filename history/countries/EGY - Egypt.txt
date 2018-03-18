@@ -40,8 +40,8 @@ set_politics = {
 
 create_country_leader = {
 	name = "British Protectorate"
-	desc = ""
-	picture = "gfx/leaders/EGY/Portrait_Egypt_Protectorate.dds"
+	desc = "PROTECTORATE_DESC"
+	picture = "Portrait_EGY_Protectorate.dds"
 	ideology = despotism
 	traits = {
 		#
