@@ -233,7 +233,6 @@ add_to_faction = TAN
 add_to_faction = GSU
 add_to_faction = HUN
 add_to_faction = SLO
-add_to_faction = ASU
 
 add_ideas = {
 	home_of_revolution
