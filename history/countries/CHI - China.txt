@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+﻿capital = 594
 
 oob = "CHI_1936"
 set_stability = 0.2
@@ -34,7 +34,7 @@ if = {
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"
-	}		
+	}
 	add_ideas = {
 		CHI_nine_power_treaty
 		CHI_army_corruption_1
@@ -53,7 +53,7 @@ set_convoys = 40
 	add_political_power = 1198
 	set_stability = 0.5
 	set_war_support = 0.7
-	
+
 	if = {
 		limit = { has_dlc = "Waking the Tiger" }
 		complete_national_focus = CHI_unified_industrial_planning
@@ -118,7 +118,7 @@ set_convoys = 40
 			CHI_military_affairs_commission
 		}
 	}
-	
+
 	set_global_flag = fall_of_nanjing
 	create_faction = chinese_united_front
 	add_to_faction = PRC
@@ -130,7 +130,7 @@ set_convoys = 40
 
 		#PLACEHOLDER techs for vehicles
 		motorised_infantry = 1
-		tech_support = 1		
+		tech_support = 1
 		tech_recon = 1
 		tech_engineers = 1
 
@@ -169,24 +169,24 @@ set_convoys = 40
 set_politics = {
 
 	parties = {
-		democratic = { 
+		democratic = {
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
-		
+
 		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
-		
-		neutrality = { 
+
+		neutrality = {
 			popularity = 100
 		}
 	}
-	
+
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
@@ -243,24 +243,24 @@ add_opinion_modifier = { target = PRC modifier = hostile_status }
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		democratic = {
 			popularity = 0
 		}
 
 		fascism = {
 			popularity = 0
 		}
-		
+
 		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
-		
-		neutrality = { 
+
+		neutrality = {
 			popularity = 100
 		}
 	}
-		
+
 		ruling_party = neutrality
 		last_election = "1936.1.1"
 		election_frequency = 48

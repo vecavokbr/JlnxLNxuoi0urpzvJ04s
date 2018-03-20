@@ -250,8 +250,8 @@ VEN = {
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 159 129 112 }
+	color_ui = rgb { 159 129 112 }
 }
 USA = {
 	color = rgb { 20 133 237 }
@@ -548,9 +548,9 @@ ASU = {
 	color = rgb { 100 100 150 }
 	color_ui = rgb { 100 100 150 }
 }
-EOC = {
-	color = rgb { 215 172 52 }
-	color_ui = rgb { 215 172 52 }
+CST = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
 }
 SVI = {
 	color = rgb { 230 223 50 }
@@ -559,4 +559,8 @@ SVI = {
 NVI = {
 	color = rgb { 226 28 28 }
 	color_ui = rgb { 226 28 28 }
+}
+IMC = {
+	color = rgb { 173 216 230 }
+	color_ui = rgb { 173 216 230 }
 }
