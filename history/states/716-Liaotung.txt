@@ -6,11 +6,11 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = CST
 		add_core_of = CHI
 		add_core_of = MAN
 		add_core_of = PRC
-		add_core_of = JAP
+		add_core_of = CST
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
