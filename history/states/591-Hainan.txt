@@ -5,11 +5,11 @@ state={
 	state_category = town
 
 	history={
-		owner = EOC
+		owner = CHI
 		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC
-		add_core_of = EOC
+		add_core_of = CST
 
 		victory_points = {
 			1070 1
