@@ -160,11 +160,16 @@ set_politics = {
 			popularity = 2
 		}
 	}
-
+	
 	ruling_party = fascism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
+}
+
+set_autonomy = {
+	target = ALB
+	autonomous_state = autonomy_puppet
 }
 
 create_country_leader = {
