@@ -68,3 +68,12 @@ Reworked borders and nations of China
 N/A
 ### Removed
 N/A
+
+## [0.0.0(silver v6)] - 2018-3-23
+### Added
+Added New States, Northern Epirus to Greece and Jinan to Chinese State
+Added collage made by @berk as a loading screen
+### Changed
+Albania is now a puppet of Italy
+### Removed
+N/A
