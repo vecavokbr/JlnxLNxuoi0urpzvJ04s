@@ -564,3 +564,7 @@ IMC = {
 	color = rgb { 173 216 230 }
 	color_ui = rgb { 173 216 230 }
 }
+RHI = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
