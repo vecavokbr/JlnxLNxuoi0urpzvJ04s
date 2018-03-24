@@ -180,6 +180,11 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 
+set_autonomy = {
+	target = RHI
+	autonomous_state = autonomy_puppet
+}
+
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
 	name = "Charles de Gaulle"

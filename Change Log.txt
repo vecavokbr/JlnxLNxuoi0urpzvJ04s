@@ -77,3 +77,12 @@ Added collage made by @berk as a loading screen
 Albania is now a puppet of Italy
 ### Removed
 N/A
+
+## [0.0.0(silver v7)] - 2018-3-24
+### Added
+Added State of Rhineland as a French puppet
+### Changed
+Fixed Egyptian flag
+Made Austria fascist
+### Removed
+N/A
