@@ -9,7 +9,7 @@ set_war_support = 0.6
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1
+	tech_support = 1		
 	tech_recon = 1
 	gw_artillery = 1
 	gwtank = 1
@@ -53,7 +53,7 @@ if = {
 		complete_national_focus = HUN_demand_southern_slovakia
 		complete_national_focus = HUN_mobile_focus
 		complete_national_focus = HUN_license_foreign_designs
-
+		
 		#Handle this manually
 		unlock_national_focus = HUN_renounce_the_treaty_of_trianon
 		add_ideas = {
@@ -75,11 +75,11 @@ if = {
 			complete_national_focus = infrastructure_effort
 			complete_national_focus = industrial_effort
 			complete_national_focus = construction_effort
-			complete_national_focus = production_effort
+			complete_national_focus = production_effort		
 		}
 	}
-
-
+	
+	
 	oob = "HUN_1939"
 	set_technology = {
 		fighter1 = 1
@@ -127,29 +127,24 @@ if = {
 
 set_politics = {
 	parties = {
-		democratic = {
-			popularity = 6
+		democratic = { 
+			popularity = 25
 		}
 		fascism = {
-			popularity = 18
+			popularity = 31
 		}
 		neutrality = {
-			popularity = 10
+			popularity = 44
 		}
 		communism = {
-			popularity = 66
+			popularity = 0
 		}
 	}
-
-	ruling_party = communism
+	
+	ruling_party = neutrality
 	last_election = "1935.3.31"
 	election_frequency = 48
-	elections_allowed = no
-}
-
-set_autonomy = {
-	target = SLO
-	autonomous_state = autonomy_puppet
+	elections_allowed = yes
 }
 
 #Start Horty as neutral if DOD
@@ -188,11 +183,11 @@ if = {
 }
 
 create_country_leader = {
-	name = "Béla Kun"
-	desc = "POLITICS_BÉLA_KUN_DESC"
-	picture = "Portrait_HUN_Bela_Kun.dds"
+	name = "Mátyás Rákosi"
+	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
+	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = stalinism
 	traits = {
 		#
 	}
@@ -209,11 +204,60 @@ create_country_leader = {
 	}
 }
 
+1939.1.1 = {
+	if = {
+		limit = {
+			has_dlc = "Death or Dishonor"
+		}
+		#Remove neutral Horty add fascist
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Miklós Horthy"
+			desc = "POLITICS_MIKLOS_HORTHY_DESC"
+			picture = "Portrait_Hungary_Miklos_Horthy.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				anti_communist
+			}
+			id = 503 #Horty fascist
+		}
+	}
+
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 27
+			}
+
+			fascism = {
+				popularity = 70
+			}
+			
+			communism = {
+				popularity = 3
+			}
+		}
+		
+		ruling_party = fascism
+		last_election = "1939.5.29"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+}
+
+
 create_corps_commander = {
 	name = "Géza Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos
 	traits = {  }
 	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -221,6 +265,10 @@ create_corps_commander = {
 	gfx = GFX_Portrait_hungary_ivan_hindy
 	traits = {  trickster }
 	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -228,13 +276,21 @@ create_corps_commander = {
 	gfx = GFX_Portrait_hungary_karoly_beregfy
 	traits = { }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Lajos Veress"
 	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { panzer_leader }
+	traits = { armor_officer }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_field_marshal = {
@@ -242,4 +298,8 @@ create_field_marshal = {
 	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
 	traits = { }
 	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
