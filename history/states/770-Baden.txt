@@ -1,0 +1,26 @@
+state={
+	id=770
+	name="STATE_770"
+
+	state_category = town
+
+	history={
+		owner = GSU
+		victory_points = {
+			9517 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 7
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = GSU
+	}
+		
+	provinces={
+		589 3530 3574 3679 3692 6542 6568 6581 6712 11640 
+	}
+	manpower=679413
+	buildings_max_level_factor=1.000
+}

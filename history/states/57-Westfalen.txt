@@ -18,6 +18,7 @@ state={
 
 		}
 		add_core_of = GSU
+		add_core_of = RHI
 
 		1939.1.1 ={
 			buildings = {

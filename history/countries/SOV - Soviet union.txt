@@ -6,6 +6,20 @@ set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.8
 
+#Mongolia puppet
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = MON
+	}
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -229,7 +243,6 @@ set_politics = {
 create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
-add_to_faction = TAN
 add_to_faction = GSU
 add_to_faction = HUN
 add_to_faction = SLO

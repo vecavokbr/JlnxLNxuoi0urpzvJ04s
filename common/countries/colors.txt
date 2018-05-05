@@ -541,8 +541,8 @@ SAR = {
 	color_ui = rgb { 224 228 255 }
 }
 WAL = {
-	color = rgb { 224 228 255 }
-	color_ui = rgb { 224 228 255 }
+	color = rgb { 189 189 85 }
+	color_ui = rgb { 189 189 85 }
 }
 ASU = {
 	color = rgb { 100 100 150 }
@@ -565,6 +565,6 @@ IMC = {
 	color_ui = rgb { 173 216 230 }
 }
 RHI = {
-	color = rgb { 0 128 0 }
-	color_ui = rgb { 0 128 0 }
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 115 111 170 }
 }
