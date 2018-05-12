@@ -1,0 +1,23 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		506 6464
+	}
+	manpower=1000000
+	resources={
+		steel=19 # was: 60
+		aluminium=7 # was: 20
+	}
+	state_category = city
+	history={
+		owner = GSU
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = POL
+		add_core_of = GSU
+
+	}
+}

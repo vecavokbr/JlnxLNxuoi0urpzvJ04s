@@ -68,6 +68,10 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
+		target = IRQ
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
@@ -97,6 +101,7 @@ if = {
 		puppet = RAJ
 		puppet = CAN
 		puppet = EGY
+		puppet = IRQ
 	}
 }
 

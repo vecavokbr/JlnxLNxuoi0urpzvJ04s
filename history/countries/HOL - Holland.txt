@@ -1,6 +1,7 @@
-﻿capital = 7
-
+﻿
 oob = "HOL_1936"
+
+capital = 7 #Amsterdam
 
 set_research_slots = 3
 set_stability = 0.8
@@ -106,15 +107,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 93
+			popularity = 90
 		}
 
 		fascism = {
-			popularity = 4
+			popularity = 6
 		}
 		
 		communism = {
-			popularity = 3
+			popularity = 4
 		}
 	}
 	
@@ -126,6 +127,11 @@ set_politics = {
 
 set_convoys = 500
 set_stability = 0.75
+
+add_ideas = {
+	HOL_neutrality_idea
+	HOL_great_depression_1
+}
 
 create_country_leader = {
 	name = "Hendrikus Colijn"
